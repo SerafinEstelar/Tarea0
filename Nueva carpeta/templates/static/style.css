@@ -1,0 +1,32 @@
+html {
+   /*  background: linear-gradient(to bottom, rgb(255, 197, 241), rgb(20, 0, 70));*/
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background: linear-gradient(135deg, #2e349a55 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(225deg, #ffb0ff 25%, transparent 25%) -10px 0/ 20px 20px, linear-gradient(315deg, #444cf755 25%, transparent 25%) 0px 0/ 20px 20px, linear-gradient(45deg, #444cf7 25%, #290c25 25%) 0px 0/ 20px 20px;    
+    flex: 11;
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+
+section {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    box-sizing: content-box;
+}
+.page {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.form {
+    
+    width: 400px;
+    padding: 50px;
+    background: rgba(130, 43, 79, 0.8);
+    border-radius: 10px;
+
+}

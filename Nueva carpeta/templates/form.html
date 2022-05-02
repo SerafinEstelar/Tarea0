@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+{%block estilos%}
+<link rel="stylesheet" href='static/style.css' href='{{ url_for("static", filename="login.css") }}' >
+
+<title>Formulario con Flask</title>
+
+{%endblock%}
+
+{%block contenido%}
+<section>
+    <form>
+            <div class="page">
+                <div class="form">
+                    <h1>Formulario Tarea</h1>
+                        <div class="input-box">
+                            <label for=fname > Nombres</label>
+                            <br>
+                            <input type="text" name="Nombres" autocomplete="off" required>
+                        </div>
+                        <div class="input-box">
+                            <label for=ApellidoP>Apellido Paterno</label>
+                            <br>
+                            <input type="text" name="Apellidopaterno" autocomplete="off" required>
+                        </div>
+                        <div class="input-box">
+                            <label for=ApellidoM>Apellido Materno</label>
+                            <br>
+                            <input type="text" name="ApellidoMaterno" autocomplete="off" required>
+                        </div>
+                        <div class="input-box">
+                            <label for=Genero >Genero</label>
+                                             
+                            <br />
+                            <input name="genero" type="radio" value="Masculino" />Masculino
+                            <br />
+                            <input name="genero" type="radio" value="Femenino" />Femenino
+                            <br />
+                            <input name="genero" type="radio" value="Otro" checked="checked" />Otro 
+                        </div>
+                        
+                        <div class="input-box">
+                            <label for=Pais >Pais de nacimiento</label>
+                            <br>
+                            <input type="text" name="Pais" autocomplete="off" required>
+                        </div>
+                        <div class="input-box">
+                            <label for=fecha >Fecha de nacimiento</label>
+                            <br>
+                            <input type="date" name="date" autocomplete="off" required>
+                        </div>
+                        <div class="input-box">
+                            <label for=Email >Email</label> 
+                            <br>
+                            <input type="email" name="Email" autocomplete="off" required>
+                        </div>       
+                        <div class="input-box">
+                            <label for=Password >Password</label>
+                            <br>
+                            <input type="password" name="password" autocomplete="off" required>
+                        </div>             
+                        <div class="input-box">
+                            <label>Confirm Password</label>
+                            <br>
+                            <input type="password" name="password" autocomplete="off" required>
+                        </div>
+
+                        <button onclick="location.href='Resultados.html'">register</button>
+                    </form>
+                </div>
+
+            </div>
+        </form>
+        </section>
+{%endblock%}

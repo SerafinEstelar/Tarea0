@@ -1,0 +1,1 @@
+Hice todo lo que pude, pero parece que el flask me dejo de funcionar, simplemente no abre el server, no encuentro error y es dificil actuar sin poder visualizar lo que estoy haciendo, el HTML y Css funcionan muy bien, pero el .py no lo se. he visto varios tutoriales y videos y recibi algo de ayuda pero nada.
